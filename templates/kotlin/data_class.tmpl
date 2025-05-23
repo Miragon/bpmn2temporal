@@ -1,0 +1,5 @@
+data class {{ .Name }}(
+{{- range $index, $f := .Fields }}
+    val {{ $f.Name }}: {{ $f.Type }}{{ if ne $index $.LastIndex }},{{ end }}
+{{- end }}
+)

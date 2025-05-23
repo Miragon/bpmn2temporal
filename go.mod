@@ -1,4 +1,4 @@
-module github.com/miragon/bpmn2temporal
+module github.com/miragon/b2t
 
 go 1.24.3
 
